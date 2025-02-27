@@ -5,7 +5,7 @@ public class Lokata {
 
         float value = 8000;
 
-        double duration = 3;
+        float duration = 3;
 
         float interest;
 
