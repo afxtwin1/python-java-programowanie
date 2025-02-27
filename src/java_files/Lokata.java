@@ -1,3 +1,5 @@
+package java_files;
+
 public class Lokata {
     public static void main(String[] args) {
 
