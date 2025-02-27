@@ -1,9 +1,9 @@
 public class Lokata {
     public static void main(String[] args) {
 
-        float interestRate = 0.05f;
+        float interestRate = 0.10f;
 
-        float value = 40000;
+        float value = 8000;
 
         double duration = 3;
 
@@ -18,6 +18,9 @@ public class Lokata {
         futureValue = value + interest;
 
         System.out.println(futureValue);
+
+        float d = (float) (12000.0f/ 8000*0.1);
+        System.out.println(d);
     }
 
 }
