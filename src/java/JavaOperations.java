@@ -1,4 +1,4 @@
-public class Java_Operations {
+public class JavaOperations {
     public static void main(String[] args) {
         int result;
         int var1 = 1;
