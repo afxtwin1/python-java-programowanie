@@ -22,8 +22,7 @@ public class Lab2Numbers {
         System.out.println(Math.log(1024)/Math.log(2));
         System.out.println((int)(Math.random()*123)); //od 0 do 123
         System.out.println((int)(Math.random()*201)-100); //od -100 do 100
-        float wykladnik = 1/3f;
-        System.out.println(Math.pow(27,wykladnik));
+        System.out.println(Math.pow(27,1.0/3));
 
     }
 
