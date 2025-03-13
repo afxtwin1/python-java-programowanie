@@ -11,7 +11,5 @@ public class JavaOperations {
 
         System.out.println(result);
         System.out.println(var1);
-
-
     }
 }
