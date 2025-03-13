@@ -3,7 +3,7 @@ package java_files;
 public class RokPrzestepny {
     public static void main(String[] args) {
 
-        int year = 2344;
+        int year = 1900;
 
         if (year % 400 == 0) {
             System.out.println("Rok " + year + " JEST rokiem przestępnym");
