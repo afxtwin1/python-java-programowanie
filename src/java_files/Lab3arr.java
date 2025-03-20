@@ -1,6 +1,6 @@
 package java_files;
 
-public class Lab3arr {
+public class Lab3 {
     public static void main(String[] args) {
 
 //        System.out.println("start");
