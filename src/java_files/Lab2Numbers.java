@@ -24,6 +24,9 @@ public class Lab2Numbers {
         System.out.println((int)(Math.random()*201)-100); //od -100 do 100
         System.out.println(Math.pow(27,1.0/3));
 
+        double c = 0;
+
+
     }
 
 }
