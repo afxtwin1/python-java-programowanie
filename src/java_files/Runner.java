@@ -25,6 +25,9 @@ public class Runner {
 
             System.out.println(calc.IsPrime(13));
         System.out.println(calc.CzyPrzestepny(2004));
+        System.out.println(calc.CzyParzysta(71));
+        //calc.LiczbyPierwsze(5, 25);
+        calc.KalkulatorKredytowy(20000, 24, 7);
         }
     }
 
