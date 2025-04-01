@@ -1,33 +1,69 @@
 package java_files;
 
+import java.util.Scanner;
+
 public class Runner {
     public static void main(String[] args) {
+//        System.out.println("podaj rownanie");
+//        Scanner sc = new Scanner(System.in);
+//        String line = sc.nextLine();
+//        String[] equ = line.split(" ");
+//        double val1 = Double.parseDouble(equ[0]);
+//        String op = equ[1];
+//        double val2 = Double.parseDouble(equ[2]);
+//
+//        sc.close();
+//
+//        if (op.equals("+")) {
+//            System.out.println(val1 += val2);
+//        }else if (op.equals("-")) {
+//            System.out.println(val1 -= val2);
+//        }else if (op.equals("*")) {
+//            System.out.println(val1 *= val2);
+//        }else if (op.equals("/")) {
+//            System.out.println(val1 /= val2);
+//        }
 
-//            double value1 = Double.parseDouble(args[0]);
-//            double value2 = Double.parseDouble(args[2]);
-//            String op = args[1];
-//
-            Lab3Calc calc = new Lab3Calc();
-//
-//
-//            double result = 0;
-//            if (op.equals("+")) {
-//                result = calc.add(value1, value2);
-//            } else if(op.equals("-")) {
-//                result = calc.subtract(value1, value2);
-//
-//            } else if(op.equals("x")) {
-//                result = calc.multiply(value1, value2);
-//            } else if(op.equals("/")) {
-//                result = calc.divide(value1, value2);
-//            }
+        Scanner sc = new Scanner(System.in);
+        boolean b = true;
+        while (b) {
+            System.out.println("Podaj równanie (np. 5 + 5) lub 'q' lub 'quit' aby zakończyć:");
+            String line = sc.nextLine();
+
+            // Sprawdzenie, czy użytkownik chce zakończyć program
+            if (line.equals("q") || line.equals("quit")) {
+                b = false; // Zakończenie pętli
+                break;
+            }
+
+            // Rozdzielamy dane po spacjach (liczba operator liczba)
+            String[] equ = line.split(" ");
 
 
-            System.out.println(calc.IsPrime(13));
-        System.out.println(calc.CzyPrzestepny(2004));
-        System.out.println(calc.CzyParzysta(71));
-        //calc.LiczbyPierwsze(5, 25);
-        calc.KalkulatorKredytowy(20000, 24, 7);
+            }
+
+            double val1 = Double.parseDouble(equ[0]);
+            String op = equ[1];
+            double val2 = Double.parseDouble(equ[2]);
+
+
+            if (op.equals("+")) {
+                System.out.println(val1 + val2);
+            } else if (op.equals("-")) {
+                System.out.println(val1 - val2);
+            } else if (op.equals("*")) {
+                System.out.println(val1 * val2);
+            } else if (op.equals("/")) {
+
+                    System.out.println(val1 / val2);
+                }
+
+            }
+
         }
-    }
+
+
+
+
+
 

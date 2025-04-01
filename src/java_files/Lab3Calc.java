@@ -46,6 +46,7 @@ public class Lab3Calc {
                 System.out.print(i + " ");
             }
         }
+
     }
 
     public void KalkulatorKredytowy(double kwota, int miesiecy, double procent) {
