@@ -26,6 +26,7 @@ public class Runner {
 
         Scanner sc = new Scanner(System.in);
         boolean b = true;
+        String[] equ = null;
         while (b) {
             System.out.println("Podaj równanie (np. 5 + 5) lub 'q' lub 'quit' aby zakończyć:");
             String line = sc.nextLine();
@@ -37,28 +38,28 @@ public class Runner {
             }
 
             // Rozdzielamy dane po spacjach (liczba operator liczba)
-            String[] equ = line.split(" ");
+            equ = line.split(" ");
 
 
-            }
+        }
 
-            double val1 = Double.parseDouble(equ[0]);
-            String op = equ[1];
-            double val2 = Double.parseDouble(equ[2]);
+        double val1 = Double.parseDouble(equ[0]);
+        String op = equ[1];
+        double val2 = Double.parseDouble(equ[2]);
 
 
-            if (op.equals("+")) {
-                System.out.println(val1 + val2);
-            } else if (op.equals("-")) {
-                System.out.println(val1 - val2);
-            } else if (op.equals("*")) {
-                System.out.println(val1 * val2);
-            } else if (op.equals("/")) {
+        if (op.equals("+")) {
+            System.out.println(val1 + val2);
+        } else if (op.equals("-")) {
+            System.out.println(val1 - val2);
+        } else if (op.equals("*")) {
+            System.out.println(val1 * val2);
+        } else if (op.equals("/")) {
 
-                    System.out.println(val1 / val2);
-                }
+            System.out.println(val1 / val2);
+        }
 
-            }
+    }
 
         }
 
