@@ -1,4 +1,4 @@
-package java_files.playlista;
+package java_files.Szkolne.playlista;
 
 public class Zarzadzanie_playlistami {
     public static void main(String[] args) {

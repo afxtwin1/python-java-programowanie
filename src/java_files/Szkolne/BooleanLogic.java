@@ -1,4 +1,4 @@
-package java_files;
+package java_files.Szkolne;
 
 public class BooleanLogic {
     public static void main(String[] args) {

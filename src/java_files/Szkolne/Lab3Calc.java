@@ -1,4 +1,4 @@
-package java_files;
+package java_files.Szkolne;
 
 @SuppressWarnings("ALL")
 public class Lab3Calc {

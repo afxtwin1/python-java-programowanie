@@ -1,4 +1,4 @@
-package java_files.Skarbonka;
+package java_files.Szkolne.Skarbonka;
 
 public class runner {
     public static void main(String[] args) {

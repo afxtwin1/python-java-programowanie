@@ -1,4 +1,4 @@
-package java_files;
+package java_files.Szkolne;
 
 import java.util.Scanner;
 
